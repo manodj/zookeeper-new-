@@ -42,4 +42,6 @@ public class ObserverBean extends ZooKeeperServerBean implements ObserverMXBean{
         return observer.getSocket().toString();
     }
 
+    public String getName() { return "Observer"; }
+
 }
